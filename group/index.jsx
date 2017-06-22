@@ -12,132 +12,133 @@ class ZmitiGroupListApp extends Component {
 			dialogimgurl:'',
 			dialogtext:'',
 			dialogdes:'',
+			dialogtips:'',
 			dataCode:[{
 				key:1,
 				name:'白鹿原',
 				code:85012,
 				imgurl:'./assets/images/a2-85012.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:2,
 				name:'解忧杂货店',
 				code:85102,
 				imgurl:'./assets/images/a3-85102.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:3,
 				name:'选书中',
 				code:1721,
 				imgurl:'./assets/images/a4-1721.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:4,
 				name:'大秦帝国',
 				code:85192,
 				imgurl:'./assets/images/a5-85192.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:5,
 				name:'追风筝的人',
 				code:85222,
 				imgurl:'./assets/images/a6-85222.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:6,
 				name:'明朝那些事儿',
 				code:2041,
 				imgurl:'./assets/images/a7-2041.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:7,
 				name:'群山回唱',
 				code:84032,
 				imgurl:'./assets/images/a8-84032.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:8,
 				name:'人文大本营II',
 				code:86162,
 				imgurl:'./assets/images/a1-86162.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:9,
 				name:'丝绸之路：一部全新的世界史',
 				code:81052,
 				imgurl:'./assets/images/b1-81052.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:10,
 				name:'选书中',
 				code:81202,
 				imgurl:'./assets/images/b2-81202.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:11,
 				name:'杨绛传',
 				code:5421,
 				imgurl:'./assets/images/b3-5421.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:12,
 				name:'中国在梁庄',
 				code:83062,
 				imgurl:'./assets/images/b4-83062.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:13,
 				name:'寒时冰说：未来二十年经济大趋势',
 				code:83102,
 				imgurl:'./assets/images/c1-83102.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:14,
 				name:'互联网+：国家战略行动路线图',
 				code:83122,
 				imgurl:'./assets/images/c2-83122.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:15,
 				name:'从0到1：开启商业与未来的秘密',
 				code:86192,
 				imgurl:'./assets/images/c3-86192.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:16,
 				name:'愿你的青春不负梦想',
 				code:86012,
 				imgurl:'./assets/images/d1-86012.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:17,
 				name:'我们仨',
 				code:86172,
 				imgurl:'./assets/images/d2-86172.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
-			},{
-				key:18,
-				name:'亲爱的安德烈',
-				code:'无',
-				imgurl:'./assets/images/e1.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:19,
 				name:'摩根写给儿子的32封信',
-				code:'无',
+				code:7526,
 				imgurl:'./assets/images/e2.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
+			},{
+				key:18,
+				name:'亲爱的安德烈',
+				code:7627,
+				imgurl:'./assets/images/e1.jpg',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:20,
 				name:'遇见孩子遇见更好的自己',
 				code:86202,
 				imgurl:'./assets/images/e3.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:21,
 				name:'黄帝内经',
 				code:86132,
 				imgurl:'./assets/images/f1-86132.jpg',
-				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',
+				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			}],
 		};
 		this.viewW = document.documentElement.clientWidth;
@@ -212,6 +213,7 @@ class ZmitiGroupListApp extends Component {
 						<div className="zmiti-group-dialog-text">
 							<div>{this.state.dialogtext}</div>
 							<div>{this.state.dialogdes}</div>
+							<div>{this.state.dialogtips}</div>
 						</div>
 					</div>
 					
@@ -235,7 +237,7 @@ class ZmitiGroupListApp extends Component {
 	}
 	provinceDialog(value){
 		var s = this;
-		var name,text,des,imgurl,code;
+		var name,text,des,imgurl,code,tips;
 		//console.log(value);
 		var dataCode=this.state.dataCode;
 		$.each(dataCode,function(i,item){
@@ -245,12 +247,14 @@ class ZmitiGroupListApp extends Component {
 				text=item.text;
 				des=item.des;
 				code=item.code;
+				tips=item.tips;
 			}
 		})
 		this.setState({
 			dialogname:name,
 			dialogtext:text,
 			dialogdes:des,
+			dialogtips:tips,
 			dialogimgurl:imgurl,
 			dialogcode:code,
 			display:'block',
@@ -266,6 +270,7 @@ class ZmitiGroupListApp extends Component {
 			dialogimgurl:'',
 			dialogtext:'',
 			dialogdes:'',
+			dialogtips:'',
 		})
 	}
 	openlink(){
