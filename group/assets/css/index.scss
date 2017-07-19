@@ -165,6 +165,13 @@ $viewW:640px;
       color:#ffffff;
       font-size:20px;
       line-height:2;
+      ol{
+        padding-left:10px;
+        li{
+          margin-left:20px;
+          list-style-type: decimal;
+        }
+      }
     }
     .zmiti-group-dialog-code{
       color:#ffffff;
