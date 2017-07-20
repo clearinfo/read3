@@ -158,8 +158,8 @@ class ZmitiGroupListApp extends Component {
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,4)}>4号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,5)}>5号悦读室</a></li>
 														
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,7)}>人文大本营</a></li>
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,8)}>人文大本营II</a></li>
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,7)}>6号悦读室</a></li>
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,8)}>7号悦读室</a></li>
 								
 							</ul>
 							<div className="zmiti-group-h3">社科类：</div>
@@ -167,28 +167,27 @@ class ZmitiGroupListApp extends Component {
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,9)}>1号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,10)}>2号悦读室</a></li>						
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,11)}>3号悦读室</a></li>						
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,12)}>社科大本营</a></li>						
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,12)}>4号悦读室</a></li>						
 							
 							</ul>
 							<div className="zmiti-group-h3">经管类：</div>
 							<ul>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,13)}>1号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,14)}>2号悦读室</a></li>
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,15)}>经管大本营</a></li>
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,15)}>3号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,22)}>创业悦读室</a></li>						
 							</ul>
 							<div className="zmiti-group-h3">励志类：</div>
 							<ul>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,16)}>1号悦读室</a></li>
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,17)}>励志大本营</a></li>						
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,17)}>2号悦读室</a></li>						
 							</ul>
 							<div className="zmiti-group-h3">亲子类：</div>
 							<ul>														
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,19)}>1号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,18)}>2号悦读室</a></li>
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,20)}>3号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,24)}>4号悦读室</a></li>
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,20)}>亲子大本营</a></li>
-								
 							</ul>
 							<div className="zmiti-group-h3">其他类：</div>
 							<ul>														
