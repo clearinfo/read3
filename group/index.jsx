@@ -134,6 +134,16 @@ class ZmitiGroupListApp extends Component {
 				name:'亲子4号悦读室',
 				code:6092,
 				imgurl:'./assets/images/e4-6092.jpg',
+			},{
+				key:25,
+				name:'养生1号悦读室',
+				code:86132,
+				imgurl:'./assets/images/q1-86132.jpg',
+			},{
+				key:26,
+				name:'国学大厦',
+				code:30304,
+				imgurl:'./assets/images/g2-30304.jpg',
 			}],
 		};
 		this.viewW = document.documentElement.clientWidth;
@@ -189,10 +199,15 @@ class ZmitiGroupListApp extends Component {
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,20)}>3号悦读室</a></li>
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,24)}>4号悦读室</a></li>
 							</ul>
+							<div className="zmiti-group-h3">养生类：</div>
+							<ul>														
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,25)}>养生1号悦读室</a></li>
+							
+							</ul>
 							<div className="zmiti-group-h3">其他类：</div>
 							<ul>														
 								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,23)}>诗歌大厦</a></li>
-								
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,26)}>国学大厦</a></li>
 							</ul>
 
 						</div>
