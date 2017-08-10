@@ -217,7 +217,7 @@ class ZmitiGroupListApp extends Component {
 				<div className="zmiti-group-dialog" style={{display:this.state.display}}>
 					<div className="zmiti-group-close"><span onTouchTap={this.dialogClose.bind(this)}>×</span></div>
 					<div className="zmiti-group-dialog-inner">
-						<div className="zmiti-group-dialog-tit">{this.state.dialogname}</div>
+						<div className="zmiti-group-dialog-tit"></div>
 						<img className="zmiti-group-dialog-imgs" src={this.state.dialogimgurl}/>
 						<div className="zmiti-group-dialog-code">验证码：{this.state.dialogcode}</div>
 						<div className="zmiti-group-dialog-tips">提示：</div>
