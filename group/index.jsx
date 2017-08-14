@@ -158,7 +158,7 @@ class ZmitiGroupListApp extends Component {
 				<div className="zmiti-group-top01"></div>
 				<div className="zmiti-group-h1">主题大厦读书报名</div>
 				<div className="zmiti-group-prolist" ref='zmiti-group-prolist' style={{height:800}}>
-					<div className="zmiti-group-province" style={{height:84*17+100,paddingBottom:10}}>
+					<div className="zmiti-group-province" style={{height:84*19+100,paddingBottom:10}}>
 						<div className="zmiti-group-paddinginner">
 							<div className="zmiti-group-h3">人文类：</div>
 							<ul>
