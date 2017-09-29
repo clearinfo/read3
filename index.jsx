@@ -12,7 +12,7 @@ var obserable = new Obserable();
 
 
 import ZmitiLoadingApp from './loading/index.jsx';
-import ZmitiGroupListApp from './china/index.jsx';
+import ZmitiGroupListApp from './group/index.jsx';
 export class App extends Component {
 	constructor(props) {
 		super(props);
