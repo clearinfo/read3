@@ -110,11 +110,11 @@
 .zmiti-group-dialog {
   width: 640px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   display: none;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.7); }
+  background: rgba(0, 0, 0, 0.8); }
   .zmiti-group-dialog .zmiti-group-close {
     color: #ffffff;
     font-size: 50px;
@@ -148,6 +148,9 @@
       .zmiti-group-dialog .zmiti-group-dialog-text ol li {
         margin-left: 20px;
         list-style-type: decimal; }
+    .zmiti-group-dialog .zmiti-group-dialog-text p b {
+      font-weight: normal;
+      color: #0033ff; }
   .zmiti-group-dialog .zmiti-group-dialog-code {
     color: #ffffff;
     text-align: center;

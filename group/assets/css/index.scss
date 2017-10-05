@@ -126,11 +126,11 @@ $viewW:640px;
   .zmiti-group-dialog{
     width: $viewW;
     height:100%;
-    position: absolute;
+    position: fixed;
     top:0;
     display:none;
     z-index:1000;
-    background:rgba(0,0,0, 0.7);
+    background:rgba(0,0,0, 0.8);
     .zmiti-group-close{
       color:#ffffff;
       font-size:50px;
@@ -170,6 +170,12 @@ $viewW:640px;
         li{
           margin-left:20px;
           list-style-type: decimal;
+        }
+      }
+      p{
+        b{
+          font-weight: normal;
+          color: #0033ff;
         }
       }
     }
