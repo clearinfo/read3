@@ -15,28 +15,28 @@ class ZmitiGroupListApp extends Component {
 			dialogtips:'',
 			dataCode:[{
 				key:1,
-				name:'白鹿原',
+				name:'人文类：1号悦读室',
 				code:85012,
 				imgurl:'./assets/images/a2-85012.jpg',
 				text:'1.长按图片识别二维码，添加机器人小管家为好友',des:'2.发送以上验证码给小管家，即可被邀请入群',tips:'3.如识别二维码失败，请添加微信号：ReadToLead',
 			},{
 				key:2,
-				name:'解忧杂货店',
+				name:'人文类：2号悦读室',
 				code:85102,
 				imgurl:'./assets/images/a3-85102.jpg',
 			},{
 				key:3,
-				name:'选书中',
+				name:'人文类：3号悦读室',
 				code:1721,
 				imgurl:'./assets/images/a4-1721.jpg',
 			},{
 				key:4,
-				name:'大秦帝国',
+				name:'人文类：4号悦读室',
 				code:85192,
 				imgurl:'./assets/images/a5-85192.jpg',
 			},{
 				key:5,
-				name:'追风筝的人',
+				name:'人文类：5号悦读室',
 				code:85222,
 				imgurl:'./assets/images/a6-85222.jpg',
 			},{
@@ -46,72 +46,72 @@ class ZmitiGroupListApp extends Component {
 				imgurl:'./assets/images/a7-2041.jpg',
 			},{
 				key:7,
-				name:'群山回唱',
+				name:'人文类：6号悦读室',
 				code:84032,
 				imgurl:'./assets/images/a8-84032.jpg',
 			},{
 				key:8,
-				name:'人文大本营II',
+				name:'人文类：7号悦读室',
 				code:86162,
 				imgurl:'./assets/images/a1-86162.jpg',
 			},{
 				key:9,
-				name:'丝绸之路：一部全新的世界史',
+				name:'社科类：1号悦读室',
 				code:81052,
 				imgurl:'./assets/images/b1-81052.jpg',
 			},{
 				key:10,
-				name:'选书中',
+				name:'社科类：2号悦读室',
 				code:81202,
 				imgurl:'./assets/images/b2-81202.jpg',
 			},{
 				key:11,
-				name:'杨绛传',
+				name:'社科类：3号悦读室',
 				code:5421,
 				imgurl:'./assets/images/b3-5421.jpg',
 			},{
 				key:12,
-				name:'中国在梁庄',
+				name:'社科类：4号悦读室',
 				code:83062,
 				imgurl:'./assets/images/b4-83062.jpg',
 			},{
 				key:13,
-				name:'寒时冰说：未来二十年经济大趋势',
+				name:'经管类：1号悦读室',
 				code:83102,
 				imgurl:'./assets/images/c1-83102.jpg',
 			},{
 				key:14,
-				name:'互联网+：国家战略行动路线图',
+				name:'经管类：2号悦读室',
 				code:83122,
 				imgurl:'./assets/images/c2-83122.jpg',
 			},{
 				key:15,
-				name:'从0到1：开启商业与未来的秘密',
+				name:'经管类：3号悦读室',
 				code:86192,
 				imgurl:'./assets/images/c3-86192.jpg',
 			},{
 				key:16,
-				name:'愿你的青春不负梦想',
+				name:'励志类：1号悦读室',
 				code:86012,
 				imgurl:'./assets/images/d1-86012.jpg',
 			},{
 				key:17,
-				name:'我们仨',
+				name:'励志类：2号悦读室',
 				code:86172,
 				imgurl:'./assets/images/d2-86172.jpg',
 			},{
 				key:19,
-				name:'摩根写给儿子的32封信',
+				name:'亲子类：1号悦读室',
 				code:7526,
 				imgurl:'./assets/images/e2.jpg',
 			},{
 				key:18,
-				name:'亲爱的安德烈',
+				name:'亲子类：2号悦读室',
 				code:7627,
 				imgurl:'./assets/images/e1.jpg',
 			},{
 				key:20,
-				name:'遇见孩子遇见更好的自己',
+				name:'亲子类：3号悦读室',
 				code:86202,
 				imgurl:'./assets/images/e3.jpg',
 			},{
@@ -121,27 +121,27 @@ class ZmitiGroupListApp extends Component {
 				imgurl:'./assets/images/f1-86132.jpg',
 			},{
 				key:22,
-				name:'经管创业悦读室',
+				name:'经管类：创业悦读室',
 				code:7528,
 				imgurl:'./assets/images/c4-7528.jpg',
 			},{
 				key:23,
-				name:'诗歌大厦',
+				name:'其他类：诗歌大厦',
 				code:2162,
 				imgurl:'./assets/images/g1-2162.jpg',
 			},{
 				key:24,
-				name:'亲子4号悦读室',
+				name:'亲子类：4号悦读室',
 				code:6092,
 				imgurl:'./assets/images/e4-6092.jpg',
 			},{
 				key:25,
-				name:'养生1号悦读室',
+				name:'养生类：1号悦读室',
 				code:86132,
 				imgurl:'./assets/images/q1-86132.jpg',
 			},{
 				key:26,
-				name:'国学大厦',
+				name:'其他类：国学大厦',
 				code:30304,
 				imgurl:'./assets/images/g2-30304.jpg',
 			}],
@@ -201,7 +201,7 @@ class ZmitiGroupListApp extends Component {
 							</ul>
 							<div className="zmiti-group-h3">养生类：</div>
 							<ul>														
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,25)}>养生1号悦读室</a></li>
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,25)}>1号悦读室</a></li>
 							
 							</ul>
 							<div className="zmiti-group-h3">其他类：</div>
@@ -217,7 +217,7 @@ class ZmitiGroupListApp extends Component {
 				<div className="zmiti-group-dialog" style={{display:this.state.display}}>
 					<div className="zmiti-group-close"><span onTouchTap={this.dialogClose.bind(this)}>×</span></div>
 					<div className="zmiti-group-dialog-inner">
-						<div className="zmiti-group-dialog-tit"></div>
+						<div className="zmiti-group-dialog-tit">{this.state.dialogname}</div>
 						<img className="zmiti-group-dialog-imgs" src={this.state.dialogimgurl}/>
 						<div className="zmiti-group-dialog-code">验证码：{this.state.dialogcode}</div>
 						<div className="zmiti-group-dialog-tips">提示：</div>
