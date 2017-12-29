@@ -136,7 +136,7 @@ class ZmitiGroupListApp extends Component {
 				imgurl:'./assets/images/e4-6092.jpg',
 			},{
 				key:25,
-				name:'养生类：1号悦读室',
+				name:'养生类：养生大厦',
 				code:86132,
 				imgurl:'./assets/images/q1-86132.jpg',
 			},{
@@ -201,7 +201,7 @@ class ZmitiGroupListApp extends Component {
 							</ul>
 							<div className="zmiti-group-h3">养生类：</div>
 							<ul>														
-								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,25)}>1号悦读室</a></li>
+								<li><a href="javascript:void(0)" onTouchTap={this.provinceDialog.bind(this,25)}>养生大厦</a></li>
 							
 							</ul>
 							<div className="zmiti-group-h3">其他类：</div>
